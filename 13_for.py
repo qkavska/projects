@@ -105,24 +105,40 @@
 # print("największa liczba: ", x)
 
 
-count = 0
-total = 0
+# count = 0
+# total = 0.0
 
 
-while True:
-        try:
-            x = int(input("Wprowadź liczbę:"))
+# while True:
+#     num = input("Wprowadź liczbę:")
 
-            if x == "gotowe":
-                break
-            count = count + 1
+#     if num == "gotowe":
+#         break
+#     print(num)
+#     try:
+#         sum = float(num) 
+#     except:
+#         print("Musisz podać liczbę.")
+#         continue
 
-            if x <= 0:
-                break
-            total = int(total + x)
+#     count = count + 1
+#     total = total + sum
 
-        except:
-            print("musisz podać liczbę")
+# print("Gotowe!", "Tyle razy zgadywałeś:", count, "suma liczb:", total, "średnia:", round(total/count, 2))
 
-print("Gotowe!", "Tyle razy zgadywałeś:", count, "suma liczb:", total)
 
+# x = None
+# y = [3, 5, 6, 90, -2]
+
+# for i in y:
+#     if x is None or i < x:
+#         x = i
+# print("Najmniejsza", x)
+
+
+y = [3, 5, 6, 90, -2]
+x = min(y)
+print(x)
+
+z = max(y)
+print(z)
