@@ -12,11 +12,12 @@
 
 # file.close()
 
-# file = open("produkty.txt", "r")
-# for produkt in file.readlines():
-#     print(produkt)
+# with open("py/produkty.txt") as f:
 
-# file.close()
+#     for produkt in f.readlines():
+#         print(produkt)
+
+# f.close()
 
 
 # file = open("produkty1.txt", "w")

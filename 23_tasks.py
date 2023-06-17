@@ -37,12 +37,10 @@
 # print(z)
 
 
-# Imagine you are a scientist looking at a new type of cell under the microscope. This type of cell divides itself into 2 daughter cells every 24 hours, meaning that the cell population duplicates every day.
+## Imagine you are a scientist looking at a new type of cell under the microscope. This type of cell divides itself into 2 daughter cells every 24 hours, meaning that the cell population duplicates every day.
 
- 
-# Task
 
-# Complete the code to take the initial cell population and the number of days you are observing the cells to calculate the cell population at the end of each day in the following format
+## Complete the code to take the initial cell population and the number of days you are observing the cells to calculate the cell population at the end of each day in the following format
 
 # cells = int(input("Enter number of cells:"))
 # days = int(input("Enter number of days:"))
@@ -52,4 +50,30 @@
 #   cells = cells * 2
 #   print("Day " + str(counter) + ": " +str(cells))
 #   counter = counter + 1
+
+## Define the run() function that will take the given list of games and the N number as arguments and output the corresponding game with the N index from the list. If the user enters an invalid number that is out of the list range, the program should output "Unknown".
+
+# games = ["Alien Shooter", "Tic Tac Toe", "Snake", "Puzzle", "Football"]
+
+# choice = int(input())
+
+# def run(games, choice):
+#     if choice >= 0 and choice <= 4:
+#         print(games[choice])
+#     else:
+#        print("Unknown")
+
+# run(games, choice)
+
+
+# def sum(x):
+
+#     res = 0
+#     for i in range(x):
+#         res+=i
+#     return res
+
+# print(sum(4))
+
+##hint: 0 + 1 = 0, 1 + 1 = 1, 2 + 1 = 2, 3 + 1 = 3
 
