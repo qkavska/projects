@@ -93,13 +93,16 @@
 # print("positive:", pos)
 # print("negative:", neg)
 
-# n = "aeiou"
-# x = str(input("Enter a sentence:"))
+n = "aeiou"
+x = str(input("Enter a sentence:"))
 
-# count = 0
-# for n in x:
-#     count = count + 1
-# print(count)
+count = 0
+for n in x:
+    if n != x:
+        continue
+    else:
+        count = count + 1
+print(count)
 
 # y = len(x)
 # print(y)

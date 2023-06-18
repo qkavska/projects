@@ -53,12 +53,13 @@
 # import os
 # os.rename("py/text.txt", "test.txt")
 
+
 # with open("py/file.txt", "w") as f:
 #     f.write("dupa")
 #     f.close()
 
 
-## kopiowanie plikó -> shutil.copy
+## kopiowanie plików -> shutil.copy
 
 # import shutil
 # x = r"C:\Users\kukaw\Git\py\file.txt"
@@ -66,19 +67,15 @@
 # shutil.copy(x,y)
 # print("Copied")
 
-fname = input("Podaj nazwę pliku: ")
+## wpisywanie numeru linijki, którą chcemy odszukać
 
-try:
-    with open(fname, "r") as file:
-        file.read()
-except:
-    print("Nie można otworzyć pliku o nazwie", fname)
-    exit()
+# with open("py/file3.txt", "r") as file:
+#     line = file.readlines()
+#     print(line[4].strip())
+#     file.close()
 
-count = 0
-for i in file:
-    if i.startswith("file"):
-        count = count + 1
-        
-print("Mamy", count, "linii z tematem wiadomości w pliku", fname)
+n = input("Enter a line:")
 
+with open("py/file3.txt", "r") as f:
+    f.read()
+    
