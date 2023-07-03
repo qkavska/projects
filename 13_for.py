@@ -136,9 +136,36 @@
 # print("Najmniejsza", x)
 
 
-y = [3, 5, 6, 90, -2]
-x = min(y)
-print(x)
+# y = [3, 5, 6, 90, -2]
+# x = min(y)
+# print(x)
 
-z = max(y)
-print(z)
+# z = max(y)
+# print(z)
+
+# sum = 0
+# iloczyn = 1
+# for i in range(5,1000,5):
+#     sum += i
+#     iloczyn *= i
+# print(sum)
+# print(iloczyn)
+
+
+#tabliczka mnożenia
+
+# for i in range(1,11):
+#     for y in range(1,11):
+#         print("{:3}".format(y*i), end=" ")
+#     print("")
+
+#formatowanie
+# wycentrowany = 2
+# do_prawej = 5
+# do_lewej = 3
+
+# print(f"|{wycentrowany:^3}|{do_prawej:>3}|{do_lewej:<3}|")
+# print(f" {i*y:>3} ", end="|") #formatowanie (3 bo 3 mejsca są potrzebne, zeby wyszło równo, bo ostatnia liczba to 100)
+
+
+

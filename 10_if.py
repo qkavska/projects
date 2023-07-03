@@ -49,12 +49,46 @@
 # else:
 #     print("you aren't male neither tall")
 
-def max_num(num1, num2, num3):
-    if num1 >= num2 and num1 >= num3:
-        return num1
-    elif num2 >= num1 and num2 >= num3:
-        return num2
-    else:
-        return num3
+# def max_num(num1, num2, num3):
+#     if num1 >= num2 and num1 >= num3:
+#         return num1
+#     elif num2 >= num1 and num2 >= num3:
+#         return num2
+#     else:
+#         return num3
     
-print(max_num(3,40,5))
+# print(max_num(3,40,5))
+
+
+# równanie kwadratowe
+# a = int(input("Wprowadź liczbę 'a': "))
+# b = int(input("Wprowadź liczbę 'b': "))
+# c = int(input("Wprowadź liczbę 'c': "))
+
+# delta = (b**2) - 4*(a * c)
+
+# if delta > 0:
+#     x1 = (-b-(delta)**0.5)/2*a
+#     x2 = (-b+(delta)**0.5)/2*a
+#     print("X1 i X2 wynoszą:", x1, x2)
+# elif delta == 0:
+#     x0 = -b/2*a
+#     print("X0 wynosi:", x0)
+# else:
+#     print("Delta jest ujemna.")
+
+
+# sprawdzanie czy liczba jest liczbą pierwszą z podanego przedziału
+# for liczba in range(2,11):
+#     liczbaPierwsza = True
+#     for y in range(2,liczba):
+#         if liczba % y == 0:
+#             liczbaPierwsza = False
+#             print("Liczba", liczba, "dzieli się przez", y, "więc nie jest liczbą pierwszą.")
+#     if liczbaPierwsza:
+#         print(liczba, "Liczba jest liczbą pierwszą.")
+# else:
+#     print(liczba, "Liczba nie jest liczbą pierwszą.")
+
+
+    
