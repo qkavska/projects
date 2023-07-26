@@ -8,22 +8,22 @@
 # ostatnia cyfra jest nieparzysta
 
 
-liczba = 556
-count = 1
+# liczba = 556
+# count = 1
 
-x = int(input("Wprowadź liczbę z przedziału 1 - 1000: "))
+# x = int(input("Wprowadź liczbę z przedziału 1 - 1000: "))
 
-while x != liczba:
-    if x < 1 or x > 1000:
-        print("Podana liczba nie jest z przedziału 1 - 1000.")
-    elif x > liczba:
-        print("Podana liczba jest mniejsza.")
-    elif x < liczba:
-        print("Podana liczba jest większa.")
-    x = int(input("Spróbuj jeszcze raz: "))
-    count += 1
-else:
-    print("Gratulacje!, zgadłeś za", count, "razem")
+# while x != liczba:
+#     if x < 1 or x > 1000:
+#         print("Podana liczba nie jest z przedziału 1 - 1000.")
+#     elif x > liczba:
+#         print("Podana liczba jest mniejsza.")
+#     elif x < liczba:
+#         print("Podana liczba jest większa.")
+#     x = int(input("Spróbuj jeszcze raz: "))
+#     count += 1
+# else:
+#     print("Gratulacje!, zgadłeś za", count, "razem")
 
 
 

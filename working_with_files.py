@@ -74,8 +74,7 @@
 #     print(line[4].strip())
 #     file.close()
 
-n = input("Enter a line:")
 
-with open("py/file3.txt", "r") as f:
-    f.read()
+
+
     

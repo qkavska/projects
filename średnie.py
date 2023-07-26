@@ -37,3 +37,4 @@
 #     sum += (int(input("Wprowadź liczbę: ")))**2
 #     y = math.sqrt(sum/x)
 # print("Średnia kwadratowa z Twoich liczb to:", round(y, 2))
+
